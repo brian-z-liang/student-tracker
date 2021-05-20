@@ -1,10 +1,16 @@
 import React from 'react';
-import { render } from 'react-dom';
+import StudentCreator from './StudentCreator.jsx'
+
+
 
 const App = (props) => {
+
 	return (
-	<div>Hello World</div>
+	<div>
+		Hello World
+		<StudentCreator />
+	</div>
 	)
-}
+};
 
 export default App;

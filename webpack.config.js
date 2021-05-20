@@ -26,7 +26,7 @@ module.exports = {
     publicPath: '/build/',
     port: 8080,
     proxy: {
-      '/api/leaders': 'http://localhost:3000',
+      '/newData': 'http://localhost:3000',
     }
   }
 };
